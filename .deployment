@@ -1,0 +1,5 @@
+[config]
+SCM_DO_BUILD_DURING_DEPLOYMENT=true
+BUILD_COMMAND=npm install && npm run build
+SCM_REPOSITORY_PATH=.
+
